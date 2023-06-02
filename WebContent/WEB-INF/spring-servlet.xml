@@ -18,12 +18,10 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 <bean id="userDao" class="com.ai.persistant.dao.UserDao"/>
 <bean id="accountDao" class="com.ai.persistant.dao.AccountDao"/>
 <bean id="roleDao" class="com.ai.persistant.dao.RoleDao"/>
-<<<<<<< HEAD
 <bean id="categoryDao" class="com.ai.persistant.dao.CategoryDao"/>
 <bean id="productDao" class="com.ai.persistant.dao.ProductDao"/>
 <bean id="colorDao" class="com.ai.persistant.dao.ColorDao"/>
 <bean id="sizeDao" class="com.ai.persistant.dao.SizeDao"/>
-=======
  <bean id="categoryDao" class="com.ai.persistant.dao.CategoryDao"/>
 <bean id="colorDao" class="com.ai.persistant.dao.ColorDao"/>
 <bean id="sizeDao" class="com.ai.persistant.dao.SizeDao"/>
@@ -32,8 +30,6 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 	
 <bean id="searchProductDao" class="com.ai.persistant.dao.SearchProductDao"/>
 	
->>>>>>> 8c7a085d36c2be0da31f8fa463b63eaacdffbfc9
-
 
 <bean id="bcryptEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 
@@ -61,10 +57,7 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 		<property name="basename" value="messages" />
 		 
 	</bean>
-<<<<<<< HEAD
-=======
-	
->>>>>>> 8c7a085d36c2be0da31f8fa463b63eaacdffbfc9
+
 
 
 </beans>
