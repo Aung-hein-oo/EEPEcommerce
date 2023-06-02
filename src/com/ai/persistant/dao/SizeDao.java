@@ -24,8 +24,11 @@ public class SizeDao {
 		int result =0;
 
 		String sql = "INSERT INTO size (size_id,value) VALUES (?,?)";
+<<<<<<< HEAD
 		
 
+=======
+>>>>>>> 8c7a085d36c2be0da31f8fa463b63eaacdffbfc9
 		
 		try {
 			PreparedStatement ps = con.prepareStatement(sql);
@@ -46,7 +49,10 @@ public class SizeDao {
 
 		String sql = "UPDATE size SET value=? WHERE size_id=?";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8c7a085d36c2be0da31f8fa463b63eaacdffbfc9
 		
 		try {
 			PreparedStatement ps = con.prepareStatement(sql);			
@@ -64,7 +70,10 @@ public class SizeDao {
 		int result=0;
 
 		String sql = "DELETE FROM size where size_id=?";		
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 8c7a085d36c2be0da31f8fa463b63eaacdffbfc9
 
 		
 		try {
@@ -82,8 +91,11 @@ public class SizeDao {
 
 		String sql = "SELECT * from size where size_id=?";
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8c7a085d36c2be0da31f8fa463b63eaacdffbfc9
 		
 		PreparedStatement ps;
 		try {
